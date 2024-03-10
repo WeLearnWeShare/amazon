@@ -11,7 +11,7 @@ pipeline {
         stage('Print Current User') {
             steps {
                 sh 'whoami'
-                sleep(5) // 5 seconds delay
+                sleep(10) // 5 seconds delay
             }
         }
         stage('Create and Navigate Directory') {
